@@ -8,6 +8,11 @@ exec($cmd);
 // 1. A nice name change using parameters in the PDO query
 /////////////////////////////////////////////////////////////////
 
+function getBossName()
+{
+    return "Bob";
+}
+
 // Simulation of values entered in a form
 $_POST['id'] = 1;
 $_POST['fname'] = "James";
