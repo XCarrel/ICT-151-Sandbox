@@ -83,3 +83,7 @@ $fm['lastname']=$lname;
 $fm['firstname']=$fname;
 BADupdateFilmMaker($fm);
 
+function getBossName()
+{
+    return "Alice";
+}
