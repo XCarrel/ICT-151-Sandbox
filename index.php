@@ -10,7 +10,11 @@ exec($cmd);
 
 function getBossName()
 {
+<<<<<<< HEAD
     return "Bob ? Nah! it's Alice";
+=======
+    return "Bob of course";
+>>>>>>> c2959f294ab377dd6343eee8f0b862f48509b621
 }
 
 // Simulation of values entered in a form
